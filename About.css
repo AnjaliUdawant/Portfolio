@@ -1,0 +1,76 @@
+
+
+
+
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.para{
+    width: 1000px;
+    font-family: helvetica;
+    margin: 5px 40px;
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+.arrow{
+    height: 30px;
+    width: 150px;
+    /* border-radius: 50%; */
+    margin-top: 150px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 10px teal;
+}
+#int{
+    font-size: 22px;
+    color: skyblue;
+    font-weight: bold;
+}
+#ant{
+    font-size: 22px;
+    color: skyblue;
+    font-weight: bold;
+}
+.para2{
+    font-family: 'fira sans',sans-serif;
+    margin: 30px 30px 30px 60px;
+    font-size: 20px;
+
+}
+.about2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.arrow2{
+    height: 30px;
+    width: 40px;
+    /* border-radius: 50%; */
+    margin-top: 150px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 10px teal;
+}
+ .introcontainer .anime{
+    animation:
+    typing 2s steps(12),
+    cursor 4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50% { border-color : transparent }
+}
+@keyframes typing {
+   from { width : 0 }
+}
+
+.hobbies{
+    width: 60%;
+    height: 500px;
+    box-shadow: 0 0 3px gray;
+    margin: auto;
+    margin-top: 100px;
+    
+}

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color:rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0;
+    
+}
+
+
+ 
+.navbar{
+    background-color:teal;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    
+   
+   
+}
+
+
+.navbar a{
+    text-decoration: none;
+    font-family: 'fira sans',sans-serif;
+    color: white;
+   font-size: 20px;
+    padding: 10px;
+    margin: 15px;
+    
+   
+}
+.navbar a:hover{
+    font-size: 22px;
+    font-weight: bold;
+    color: skyblue;
+  
+}
+h1{
+    text-align: center;
+    /* margin-top:100px; */
+    color:skyblue;
+    font-size: 50px;
+   box-shadow: 0 2px 10px teal;
+   padding: 30px;
+
+}
+
+
+.card{
+    width: 300px;
+    height: 300px;
+   background-color: black;
+   border: 1px solid teal;
+    box-shadow: 0px 5px 15px teal;
+    border-radius: 25px;
+    margin: 70px 10px ;
+   padding: 10px;
+   animation: moveImage 1s ease-in-out infinite alternate; 
+   
+}
+
+@keyframes moveImage {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(30px); 
+    }
+}
+.card:hover{
+    border: 1px solid teal;
+    border: 2px solid skyblue;
+
+
+}
+#cards{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+@media (min-width:374px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
+
+.card h2{
+    color: skyblue;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: underline;
+    text-decoration-color: teal;
+}
+.card p{
+    color: white;
+    font-family: helvetica;
+    margin: 10px;
+    padding: 5px;
+    line-height: 25px;
+    font-size: 20px;
+    
+}
+
+.one{
+    color: white;
+    background-color: teal;
+    margin-left:30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-size: 15px;
+    border: 2px solid black;
+    box-shadow: 0px 2px 7px skyblue;
+    font-weight: 700;
+   
+}
+
+.two{
+    color: white;
+    background-color: teal;
+    margin-left:30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: 15px;
+    border: 2px solid black;
+    box-shadow: 0px 2px 7px skyblue;
+    font-weight: 700;
+}
+
+.three{
+    color: white;
+    background-color: teal;
+    margin-left:30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: 15px;
+    border: 2px solid black;
+    box-shadow: 0px 2px 7px skyblue;
+    font-weight: 700;
+}
+
+button:hover{
+    border: 2px solid skyblue;
+    color: black;
+
+}
